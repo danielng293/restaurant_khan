@@ -5,10 +5,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Menu Recommendation</title>
+  <style>
+    body {
+      font-family: 'Nanum Gothic', sans-serif;
+      background-color: #fefaf5;
+      color: #4b2e2e;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .menu-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .menu-item {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 15px;
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .menu-item h3 {
+      margin: 12px 0 0;
+      font-size: 17px;
+      color: #1f2f4d;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: #1f2f4d;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>🍜 Menu Recommendation</h1>
-  <a href="index.html">←Go Back</a>
-  
+  <h1>🍽️ Chef’s Recommendations</h1>
+
+  <div class="menu-grid">
+
+    <div class="menu-item">
+      <img src="https://your-image-link-1" alt="Beef Barbeque">
+      <h3>Beef Barbeque</h3>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://your-image-link-2" alt="Pork Bulgogi">
+      <h3>Pork Bulgogi</h3>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://your-image-link-3" alt="Chicken Bulgogi">
+      <h3>Chicken Bulgogi</h3>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://your-image-link-4" alt="LA Galbi">
+      <h3>LA Galbi</h3>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://your-image-link-5" alt="Spicy Pork">
+      <h3>Spicy Pork</h3>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://your-image-link-6" alt="Jeyuk Bokkeum">
+      <h3>Jeyuk Bokkeum</h3>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://your-image-link-7" alt="Kimchi Stew">
+      <h3>Kimchi Stew</h3>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://your-image-link-8" alt="Soft Tofu Stew">
+      <h3>Sundubu Jjigae</h3>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://your-image-link-9" alt="Bibimbap">
+      <h3>Bibimbap</h3>
+    </div>
+
+  </div>
+
+  <a href="index.html" class="back-link">← Go Back</a>
 </body>
 </html>
